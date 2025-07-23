@@ -1,3 +1,7 @@
 pandas
 wikihowunofficialapi
 numpy
+textstat
+matplotlib
+seaborn
+scikit-learn
