@@ -33,7 +33,6 @@ These visualizations tell the story of our data and our model's performance.
 * **Scikit-learn:** For training and evaluating regression models
 * **Textstat:** For calculating readability scores
 * **Matplotlib & Seaborn:** For data visualization
-* **Streamlit:** For building and deploying the interactive demo
 
 ---
 
