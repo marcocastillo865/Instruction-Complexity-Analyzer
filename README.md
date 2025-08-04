@@ -52,25 +52,6 @@ After comparing multiple models, our final **Tuned Gradient Boosting Regressor**
 
 ---
 
-## How to Run the Demo
-
-An interactive demo of this project has been deployed using Streamlit. To run it locally, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Run the Streamlit app:**
-    ```bash
-    streamlit run app.py
-    ```
-
----
 
 ## Data Source & Acknowledgments
 
