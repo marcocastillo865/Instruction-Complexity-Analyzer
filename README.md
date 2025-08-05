@@ -43,6 +43,7 @@ The tool analyzes any given instructional text and predicts a "complexity score.
 * **Scikit-learn:** For training and evaluating regression models
 * **Textstat:** For calculating readability scores
 * **Matplotlib & Seaborn:** For data visualization
+* **Streamlit:** For building and deploying the interactive demo
 
 ---
 
