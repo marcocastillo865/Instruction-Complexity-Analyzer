@@ -91,7 +91,7 @@ After comparing multiple models and performing hyperparameter tuning on an expan
 
 **1. Exploratory Data Analysis**
 *These histograms show the distribution of steps and methods in our 10,000-article dataset. We observed that most articles are moderately complex, with a long tail of more complex instructions, which is ideal for training.*
-[cite_start]![EDA Histograms](images/exploratory_data_analysis.png) [cite: 2]
+![EDA Histograms](images/exploratory_data_analysis.png)
 
 **2. Feature Importance**
 *This plot reveals our final model's strategy. It learned that the instruction's structure (average steps per method) and its overall volume (sentence and word counts) are the most powerful predictors of complexity.*
@@ -99,7 +99,7 @@ After comparing multiple models and performing hyperparameter tuning on an expan
 
 **3. Model Performance: Actual vs. Predicted**
 *This scatter plot visualizes our model's high accuracy. The tight clustering of predictions around the red "perfect prediction" line confirms the model's reliability.*
-[cite_start]![Actual vs. Predicted Plot](images/GB_actual_vs_predicted_complexity_scores.png) [cite: 1]
+![Actual vs. Predicted Plot](images/GB_actual_vs_predicted_complexity_scores.png)
 
 ---
 
