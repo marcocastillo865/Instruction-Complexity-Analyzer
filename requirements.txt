@@ -5,3 +5,4 @@ textstat
 matplotlib
 seaborn
 scikit-learn
+streamlit
