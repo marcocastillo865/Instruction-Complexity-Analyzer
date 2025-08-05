@@ -64,7 +64,7 @@ You will need Python 3.8+ and pip installed on your system.
 
 2.  **Download the Dataset:**
     * The wikiHow dataset (`wikihow.pickle`) is too large to be included in this repository.
-    * Please download it from the source on Kaggle: [wikiHow All Dataset](https://www.kaggle.com/datasets/aniketsharma00411/wikihow-raw-data/data).
+    * Please download it from the source on Kaggle: [wikiHow Raw Dataset](https://www.kaggle.com/datasets/aniketsharma00411/wikihow-raw-data/data).
     * Place the downloaded `wikihow.pickle` file into the root directory of this project.
 
 3.  **Install dependencies:**
@@ -128,5 +128,5 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Data Source & Acknowledgments
 
-* **Primary Dataset:** The [wikiHow All Dataset](https://www.kaggle.com/datasets/aniketsharma00411/wikihow-raw-data/data) from Kaggle was used as the source for all instructional articles.
+* **Primary Dataset:** The [wikiHow Raw Dataset](https://www.kaggle.com/datasets/aniketsharma00411/wikihow-raw-data/data) from Kaggle was used as the source for all instructional articles.
 * This project was developed as part of the **AI4ALL Ignite Program**.
