@@ -11,7 +11,7 @@ An AI-powered tool that analyzes instructional text and predicts a "complexity s
 * [Technologies Used](#technologies-used)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation & Usage](#installation--usage)
+  * [Installation & Setup](#installation--setup)
 * [The Machine Learning Pipeline](#the-machine-learning-pipeline)
 * [Results](#results)
 * [Contributing](#contributing)
@@ -54,18 +54,29 @@ To get a local copy up and running, follow these steps.
 
 You will need Python 3.8+ and pip installed on your system.
 
-### Installation & Usage
+### Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
     cd your-repo-name
     ```
-2.  **Install dependencies:**
+
+2.  **Download the Dataset:**
+    * The wikiHow dataset (`wikihow.pickle`) is too large to be included in this repository.
+    * Please download it from the source on Kaggle: [wikiHow All Dataset](https://www.kaggle.com/datasets/aniketsharma00411/wikihow-raw-data/data).
+    * Place the downloaded `wikihow.pickle` file into the root directory of this project.
+
+3.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Run the Streamlit app:**
+
+4.  **Run the Jupyter Notebook (Optional):**
+    * To see the full data analysis, feature engineering, and model training process, you can now run the Jupyter Notebook included in this repository.
+
+5.  **Run the Streamlit Demo:**
+    * To use the final, trained model, run the following command in your terminal:
     ```bash
     streamlit run app.py
     ```
